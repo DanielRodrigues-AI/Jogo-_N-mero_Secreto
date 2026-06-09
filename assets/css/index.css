@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dash-body {
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.header-h1 {
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding:10px;
+    background-color: #97b42c;
+}
+.dash-header {
+    background-color: #97b42c;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.dash-main {
+    background-color: rgba(165, 192, 46, 0.8);
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    padding:min(20px, 5%);
+    min-height: calc(100vh - 80px);
+}
+.dash-section {
+    background-color: rgba(136, 80, 80, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.numeroDe{
+    color: #3f1c77;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.numeroAte {
+    color: #5f075f;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.input-number {
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.botao {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-color: #97b42c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: #7a9620;
+}
+.botao:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.texto {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding:10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.chute, .tentativas, .resultado {
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+}
+.chute {
+    color: #3f1c77;
+}
+.tentativas {
+    color: #5f075f;
+}
+.resultado {
+    color: #97b42c;
+}
+
